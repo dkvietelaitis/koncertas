@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Steps from Hell koncertas</title>
+</head>
+<style>
+    
+    body
+    {
+        background-image: url("background-2.jpg");
+        background-repeat: not-repeat;
+        background-position: left top;
+        background-size: 100%;
+    }
+    h1
+    {
+        color: whitesmoke;
+        text-align: center;
+        text-shadow: 2px 2px red;
+        font-family: 'Papyrus', 'Fantasy';
+        font-size: 60px;
+        
+    }
+    h4
+    {
+        color: yellow;
+        text-align: center;
+        text-shadow: 2px 2px green;
+        font-size: 30px;
+    }
+    h3
+    {
+        color: green;
+        text-align: center;
+        text-shadow: 2px 2px black;
+        font-size: 35px;
+    }
+    h5 
+    {
+        color: aqua;
+        text-align: center;
+        text-shadow: 2px 2px blue;
+        font-size: 30px;
+    }
+    p
+    {
+        text-align: center;
+        color: red;
+        font-size: 50pt;
+        text-shadow: 2px 2px black;
+    }
+    .content
+    {
+        max-width: 500px;
+        margin: auto;
+    }
+    label 
+    {
+        text-align: center;
+        color: red;
+    }
+    p1 
+    {
+        text-align: center;
+        color: red;
+    }
+    img 
+    {
+        opacity: 0.4;
+    }
+</style>
+<body>
+    <div class="content">
+    <H1>TWO STEPS FROM HELL</H1>
+    <H4>Pirmą kartą LIETUVOJE!</H4>
+    <H3>2023-10-29 20:00 val.</H3>
+    <H5>DĖMESIO: informacija apie bilietų kainas - jau netrukus!</H5>
+
+    <p><strong>Susipažink:</strong></p>
+    <a href="https://www.twostepsfromhell.com/" target="_blank">
+    <img 
+        src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/062021/1200px-two_steps_from_hell.jpg?I0AFZzyouAJsQk7L9YBU1nSBqAoKAZ3u&itok=laXPSSTZ" 
+        alt="Two Steps from Hell logo"
+        width="500"
+        height="500">
+    </a>
+    
+    <p><strong>Išgirsk:</strong></p>
+    <iframe 
+        src="https://www.youtube.com/embed/hKRUPYrAQoE"
+        width="560" 
+        height="315" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+     
+    <p><strong>Ateik ir šėlk:</strong></p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.6453178245065!2d23.908270315995352!3d54.89159496554618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e722720c29aec3%3A0x98ba1a51187fb632!2sNemuno%20sala!5e0!3m2!1slt!2slt!4v1658854863077!5m2!1slt!2slt" 
+        width="560" 
+        height="315" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>    
+
+    <p>Užsisakyk naujienlaiškį!</p>
+
+    <form action="submit.html" method="get">
+        <!--Vardas-->
+        <label for="name">Tavo Vardas</label><br><br>
+        <input id="name" type="text" placeholder="Įrašykite..." required><br><br>
+        <!--Email-->
+        <label for="email">Tavo el. pašto adresas</label><br><br>
+        <input id="email" type="email" placeholder="Įrašykite..." name="email" required><br><br>
+        <!--Prenumeratos tipas-->
+        <label for="email">Kokias naujienas norite gauti pirmieji?</label><br><br>
+        <select name="town" id="town" required>
+            <option value selected disabled="Pasirinkite iš sąrašo">Pasirinkite iš sąrašo</option>
+            <option value="Naujai išleisti kūriniai">Naujai išleisti kūriniai</option>
+            <option value="Naujai išlesiti albumai">Naujai išlesiti albumai</option>
+            <option value="Būsimi koncertai">Būsimi koncertai</option>
+            <option value="Nauji įrašai YouTube kanale">Nauji įrašai YouTube kanale</option>
+            <option value="Naujienos iš žiniasklaidos">Naujienos iš žiniasklaidos</option>
+            <option value="Man svartu TIK bilietų KAINOS">Man svartu TIK bilietų KAINOS</option>
+        </select><br><br>
+        <!--Sutikimas privatumo politikai-->
+        <p1>Pateikdamas savo el. pašto adresą, sutinku ir suprantu, kad man bus siunčiami informaciniai pranešimai susiję tik su <strong>„Two Steps from Heel“</strong> turiniu.</p1><br><br>
+            <label for="Sutinku">Sutinku</label>
+            <input id="Sutinku" value="Sutinku" name="newsletter" type="checkbox"><br><br>
+            <label for="Sutinku tik dėl bilietų informacijos">Sutinku tik dėl bilietų informacijos</label>
+            <input id="Sutinku" value="Sutinku" name="newsletter" type="checkbox"><br><br>
+            <label for="Nesutinku">Nesutinku</label>
+            <input id="Nesutinku" value="Nesutinku" name="newsletter" type="checkbox">
+            <br><br>
+            <input type="submit" value="Užsiprenumeruoti!">
+    </form>
+    </div>
+</body>
+</html>
